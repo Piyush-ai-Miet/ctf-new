@@ -60,7 +60,8 @@ def try_native_size_arrangements():
         if len(arrangement) == 2 and len(arrangement[0]) == 4:  # 2x4
             create_2x4_arrangement(tiles, arrangement, f"native_2x4_{idx+1}.png")
         elif len(arrangement) == 4 and len(arrangement[0]) == 2:  # 4x2
-            create_4x2_arrangement(tiles, arrangement, f"native_4x2_{idx+1}.png")
+            # Skip 4x2 for now, focus on 2x4 and custom
+            pass
         elif len(arrangement) == 2:  # Custom 2-row
             create_custom_arrangement(tiles, arrangement, f"native_custom_{idx+1}.png")
 
