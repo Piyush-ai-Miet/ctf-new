@@ -1,0 +1,15 @@
+# Exclude intermediate analysis files
+arrangement_*.png
+perm_*.png
+tile_*_scaled.png
+tile_*_enhanced.png
+enhanced_*.png
+processed_*.png
+reading_*.png
+bw_reading_*.png
+text_attempt_*.png
+
+# Keep only final solutions and analysis
+!final_*.png
+!bw_final_*.png
+!SOLUTION.md
